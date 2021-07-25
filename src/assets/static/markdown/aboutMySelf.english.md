@@ -1,39 +1,16 @@
 <br />
 
-# Hi!
+# 안녕하세요!
 
-## my Name is **ddongule**
+## 제 이름은 김태영 입니다.
 
-## I am Software Engineer
-
-## **Professional in Front-End**
+## **저는 백엔드 개발자(지망) 입니다!**
 
 <br />
 
-### My Github is .. [www.github.com/ddongule](www.github.com/ddongule)
+현재 풀필먼트 시스템을 운영중 인 회사에서 근무 중이며 , 조금 더 저를 꿈에 가깝게 좀더 곳간에 지식을 쌓게
+<br> 좀더 채찍질 하고 싶은 주니어 개발자입니다.
+<br> 현재는 기존에 사용하는 백엔드 관련 이외에 쿠버네티스를 공부하고 있습니다.
 
 <br />
 
-## - +R+Red HighLight+R+
-
-## - +G+Green HighLight+G+
-
-## - +B+Blue HighLight+B+
-
-<br /><br />
-
-I am Good at `React.js`, `HTML/CSS(SASS)`, `Javascript`!
-
-& Check List (Black & White)
-
-- Check List (Highlight)
-
-<br />
-
-1. Ordered List
-2. Ordered List
-3. Ordered List
-4. Ordered List
-
-<br />
-<br />

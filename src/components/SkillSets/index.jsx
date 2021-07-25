@@ -13,7 +13,7 @@ const SkillSets = () => {
     <>
       {skillSets && (
         <>
-          <SubTitle>Skill Sets</SubTitle>
+          {/* <SubTitle>Skill Sets</SubTitle>
           <div className='skill-sets-container'>
             <div className='description'>
               <div className='description-item'>
@@ -41,7 +41,7 @@ const SkillSets = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </>
       )}
     </>

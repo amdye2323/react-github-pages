@@ -1,38 +1,36 @@
 {
   "meta": {
     "title": "DP for your portfolio",
-    "defaultLanguage": "English"
+    "defaultLanguage": "korean"
   },
   "aboutMe": {
-    "name": "Min Kyung Kang",
-    "nickName": "nickName!",
-    "profileImg": "../assets/images/me.gif",
-    "email": "mnk918p@gmail.com",
-    "githubUrl": "https://github.com/ddongule",
-    "blogUrl": "https://mingule.tistory.com/",
-    "linkedInUrl": "https://www.linkedin.com/"
+    "name": "Kim Tae Yeong",
+    "nickName": "BottleBear",
+    "profileImg": "https://github.com/amdye2323/react-github-pages/blob/master/public/assets/images/mainme.jpg",
+    "email": "amdye2323@naver.com",
+    "githubUrl": "https://github.com/amdye2323",
+    "blogUrl": "https://velog.io/@amdye2323"
   },
 
   "skillSets": [
     {
       "category": "Front End Skills",
       "skills": [
-        { "skill": "Javascript", "level": "5" },
-        { "skill": "HTML/CSS(SASS)", "level": "5" },
-        { "skill": "React", "level": "5" },
-        { "skill": "Typescript", "level": "4" }
+        { "skill": "Javascript" },
+        { "skill": "HTML/CSS(BootStrap)" },
+        { "skill": "Flutter"},
+        { "skill": "Typescript" }
       ]
     },
     {
       "category": "Back End Skills",
       "skills": [
-        { "skill": "Python", "level": "3" },
-        { "skill": "Django", "level": "2" },
-        { "skill": "Django-Rest-Framework", "level": "1" },
-        { "skill": "Java", "level": "5" },
-        { "skill": "Spring", "level": "5" },
-        { "skill": "Ruby", "level": "4" },
-        { "skill": "Ruby-on-Rails", "level": "5" }
+        { "skill": "Kotlin" },
+        { "skill": "SpringBoot" },
+        { "skill": "Java" },
+        { "skill": "Dart"},
+        { "skill": "MySql" },
+        { "skill": "MongoDB" }
       ]
     },
     {
@@ -40,18 +38,14 @@
       "skills": [
         { "skill": "Git/Github" },
         { "skill": "Notion" },
-        { "skill": "Slack" },
-        { "skill": "Swit" }
+        { "skill": "SVN" }
       ]
     },
     {
       "category": "Etc...",
       "skills": [
-        { "skill": "Netlify" },
-        { "skill": "Heroku" },
-        { "skill": "Pythonanywhere" },
         { "skill": "AWS EC2" },
-        { "skill": "AWS Beanstalk" },
+        { "skill": "AWS LoadBalancer" },
         { "skill": "Docker" }
       ]
     }
@@ -60,75 +54,62 @@
   "projects": [
     {
       "imgUrl": "",
-      "githubUrl": "https://github.com/ddongule",
+      "githubUrl": "",
       "projectUrl": "",
-      "title": "[Team] Project Title",
-      "term": "21.02.02 v1.3.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "title": "[Team] B2B 정산시스템",
+      "term": "21.07.22 v1.3.0",
+      "description": "운영중인 풀필먼트 시스템 내 정산시스템 프로젝트 PM을 맡아 진행했습니다.",
+      "attribution": "기존의 스프링 시스템에서 진행한 부분이라 새로운 기술을 사용하지는 않았지만 몇년동안 쌓아온 데이터를 이용해 앞으로도 계속 사용할수있는 신뢰성 있는 정산데이터를 구축하기 위해 정산관련 직원과의 커뮤니케이션 그리고 데이터 가공 기술을 늘릴수있는 기회가 되었습니다.",
+      "tags": ["Kotlin", "Spring", "Mysql", "HandleBars","JavaScripts"]
     },
     {
-      "imgUrl": "/assets/images/example-image-light.png",
-      "githubUrl": "https://github.com/ddongule",
+      "imgUrl": "https://github.com/amdye2323/react-github-pages/blob/master/public/assets/images/flutterMainPage.jpg",
+      "githubUrl": "https://github.com/amdye2323/flutterProject",
       "projectUrl": "",
-      "title": "[Personal] Project Title",
-      "term": "21.01.01 v1.0.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "title": "[Personal] 플러터 바코드 앱 프로젝트",
+      "term": "21.05.12 Alpha",
+      "description": "풀필먼트 시스템의 고도화를 위해 바코드 재고 관리 앱 기술이 필요하여 PM을 맡아 진행했습니다.",
+      "attribution": "현장의 특성상 정적인 데스크탑 웹 보다는 여러가지 호환이 좋은 모바일 거기서도 평소에 관심이 있어 공부하던 플러터를 이용해 바코드를 이용하여 기존의 재고를 새로운 테이블로 마이그레이션 하여 바코드로 재고관리 ,조회 및 출고를 담당하는 기술을 개발하였습니다. ",
+      "tags": ["Flutter", "Dart", "Kotlin", "Spring"]
+    },
+    {
+      "imgUrl": "",
+      "githubUrl": "",
+      "projectUrl": "",
+      "title": "[Team] B2B 네이버 스마트 스토어 주문연동",
+      "term": "20.12.12 v1.3.0",
+      "description": "자사 시스템 내에서 네이버 스마트 스토어의 데이터를 연동하여 관리할 수 있는 시스템 개발을 진행했습니다.",
+      "attribution": "기존의 rest api방식이 아닌 soap ui 통신 방법으로 스마트 스토어와 연동해야 했고 , 그 과정에서 api 프로세스 과정 과 서로 다른 데이터를 가진 두 시스템이 데이터를 공유하게 과정을 공부하게 된거 같습니다.",
+      "tags": ["Soap Ui", "Java", "Kotlin", "mysql","JavaScripts"]
     }
   ],
 
   "timestamp": [
     {
-      "title": "Woowa Sisters",
-      "when": "21.12 ~ ",
-      "organizer": "Woowa Sisters",
+      "title": "리턴박스",
+      "when": "20.05 ~ ",
+      "organizer": "솔루션개발팀",
       "tags": ["company"]
     },
 
     {
-      "title": "2021 Woowa Tech Course 3th",
-      "when": "21.02.01 - 21.11.31",
-      "organizer": "Woowa Bros",
+      "title": "국비웹개발과정",
+      "when": "19.10.28 - 20.05.15",
+      "organizer": "학생",
       "tags": ["techcourse"]
-    },
-    {
-      "title": "우아한 대학교 (Woowa University)",
-      "when": "20.08.25",
-      "organizer": "University of Woowa",
-      "tags": ["graduation"]
-    }
-  ],
-
-  "experiences": [
-    {
-      "imgUrl": "/assets/images/example-image-dark.png",
-      "title": "[Software Engineer] Woowa Corp.",
-      "term": "21.02 - 현재 진행 중",
-      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "experienceUrl": "https://woowacourse.github.io/"
-    },
-    {
-      "imgUrl": "/assets/images/example-image-light.png",
-      "title": "[Intern] Woowa Corp.",
-      "term": "19.11 - 21.03",
-      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
-      "experienceUrl": "https://woowacourse.github.io/"
     }
   ],
 
   "educations": [
     {
-      "title": "우아한 대학교 (Woowa University)",
-      "term": "2013.03 - 2017.03",
-      "description": "척척박사 졸업"
+      "title": "동명대학교 시각디자인과",
+      "term": "2010.03 - 2013.03",
+      "description": "중퇴"
     },
     {
-      "title": "잠실 고등학교 (Jamsil High School)",
-      "term": "2010.03 - 2013.02",
-      "description": "인문계 졸업"
+      "title": "국립부산기계공업고등학교",
+      "term": "2007.03 - 2010.02",
+      "description": "특목고 졸업"
     }
   ]
 }
